@@ -36,6 +36,6 @@ class MainActivity : AppCompatActivity() {
     // Example of a simple validation function. You can expand this according to your requirements.
     private fun isValidCredentials(username: String, password: String): Boolean {
         // Add your validation logic here
-        return username == "admin" && password == "password"
+        return username == "pavan" && password == "pass"
     }
 }

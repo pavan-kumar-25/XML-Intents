@@ -24,7 +24,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Wlcome to riddle quest"
+        android:text="Wellcome to riddle quest"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/usernameTextInputLayout"
