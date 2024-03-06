@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back"
     tools:context=".MainActivity">
 
     <TextView
@@ -118,6 +119,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submit"
+        android:backgroundTint="#E38A8A"
         app:layout_constraintTop_toBottomOf="@id/messageTextInputLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -135,6 +137,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:text="Instagram"
+        android:backgroundTint="#E38A8A"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/submitButton" />
 
@@ -145,6 +148,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="32dp"
         android:text="Facebook"
+        android:backgroundTint="#E38A8A"
         app:layout_constraintStart_toEndOf="@id/instagramButton"
         app:layout_constraintTop_toBottomOf="@id/submitButton" />
 
@@ -155,6 +159,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
         android:text="LinkedIn"
+        android:backgroundTint="#E38A8A"
         app:layout_constraintStart_toEndOf="@id/facebookButton"
         app:layout_constraintTop_toBottomOf="@id/submitButton" />
 
